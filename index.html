@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HackerEarth Test</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="src/myscript.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+</head>
+
+<body>
+    <nav class="navbar bg-dark navbar-dark sticky-top">
+        <a class="navbar-brand" href="cleartrip.html">
+            <img src="img/logo.png" alt="Logo" style="width:80px;">
+        </a>
+        <span class="navbar-text" style="font-size: 50px; font-weight: bold;font-family: 'Fredoka One', cursive;">Kickstarter</span>
+        <div class="form-inline my-2 my-lg-0">
+            <input class="form-control" type="text" id="searchInput" placeholder="Search" aria-label="Search">
+            <!-- <button class="btn btn-outline-success my-2 my-sm-0" id="searchButton" type="reset">Reset</button> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4 row">
+            <div class="col-lg-9">
+                <h4 class="text-white">Sort by</h4>
+                <div class="btn-group">
+                    <button type="button" id="pledge" class="btn btn-secondary">$ Pledged</button>
+                    <button type="button" id="funded" class="btn btn-secondary">% Funded</button>
+                    <button type="button" id="backers" class="btn btn-secondary"># Backers</button>
+                    <button type="button" id="date" class="btn btn-secondary">End Date</button>
+                </div>
+            </div>
+            <div class="col-lg-3" align="right">
+                <h4 class="text-white">Filter by</h4>
+                <input class="form-control my-2 my-sm-0" type="text" id="searchLocation" placeholder="Location" aria-label="Location">
+            </div>
+        </div>
+    </div>
+    <div class="projects ">
+        All project loading here...
+    </div>
+
+</body>
+
+</html>
